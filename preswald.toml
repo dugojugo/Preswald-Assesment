@@ -1,0 +1,27 @@
+[project]
+title = "Viresh Bhurke"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Viresh Bhurke"
+logo = "images/finance.png"
+favicon = "images/finance.ico"
+
+[data.financial_fraud_dataset]
+type = "csv"
+path = "data/financial_fraud_dataset.csv"
+delimiter = ","
+header = true
+
+[data.iit]
+type = "csv"
+path = "data/iit.csv"
+delimiter = ","
+header = true
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
